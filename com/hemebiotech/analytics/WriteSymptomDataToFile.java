@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.Map;
 
+
 public class WriteSymptomDataToFile implements ISymptomWriter {
 
 @Override
@@ -20,7 +21,7 @@ public class WriteSymptomDataToFile implements ISymptomWriter {
 					e.printStackTrace();
 				}
 			});
-			writer.close();
+			// writer.close();
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
