@@ -21,7 +21,7 @@ public class WriteSymptomDataToFile implements ISymptomWriter {
 					e.printStackTrace();
 				}
 			});
-			// writer.close();
+			writer.close();
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
